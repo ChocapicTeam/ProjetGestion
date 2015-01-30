@@ -11,7 +11,8 @@ import java.util.ArrayList;
 public class Etudiant implements Serializable {
 	private String numeroEtudiant;
 	private Specialite specialite;
-//test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//tesufsbfnsfjsnfsnfsd
+//t!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	private String prenom;
 	private String nom;
 	private ArrayList<UE> listeUE;
