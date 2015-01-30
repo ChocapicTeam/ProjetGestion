@@ -8,6 +8,6 @@
 	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.11-beta2.jar"/>
 	<classpathentry kind="lib" path="lib/stax-api-1.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="lib/jxl-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jxl-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
