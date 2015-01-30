@@ -18,8 +18,8 @@ public class TestJXL {
 	private static final String ficSauvEtudiant = "etudiants";
 	private static final int indEtudiantFin = 6, indDebutUE = 8;
 
-	public static void main(String[] args) throws BiffException, IOException {
-		Workbook workbook = Workbook.getWorkbook(new File("resultat.xls"));
+	public static void readXLSWithJXL(String file) throws BiffException, IOException {
+		Workbook workbook = Workbook.getWorkbook(new File(file));
 		Sheet sheet1 = workbook.getSheet(0);
 
 		int lastRowNum = sheet1.getRows();

@@ -17,14 +17,14 @@ public class TestExcel {
 	private static final int indEtudiantFin = 6, indDebutUE = 8;
 
 	
-	public static void main(String[] args) throws InvalidFormatException,
+	public static void readXLSWithPOI(String nameFile) throws InvalidFormatException,
 			IOException {
 		// TODO Auto-generated method stub
 
 		//Fichier de sauvegarde des étudiants 
 		File fileEtu = new File(ficSauvEtudiant);
 		//Ouverture du fichier Excel 
-		File file = new File(fic);
+		File file = new File(nameFile);
 		Workbook wb = WorkbookFactory.create(file);
 		//On recupère la feuille 1 du fichier Excel 
 		Sheet sh = wb.getSheet(feuille1);
